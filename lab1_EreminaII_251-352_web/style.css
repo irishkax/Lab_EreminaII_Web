@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 25px 0 15px 0;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: 500;
+}
+
+table th:nth-child(3),
+table td:nth-child(3),
+table th:nth-child(4),
+table td:nth-child(4),
+table th:first-child,
+table td:first-child {
+    text-align: center;
+}
+
+/* Стили для футера */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85rem; /* мелкий шрифт */
+    line-height: 1.8;
+}
+
+footer p {
+    margin: 4px 0;
+    font-size: 0.85rem; /* мелкий шрифт для всех строк */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
